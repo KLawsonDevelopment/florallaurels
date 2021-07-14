@@ -8,6 +8,7 @@ class Art extends Component {
         document.getElementById('topLayer').classList.add('topLayer')
         document.getElementById('gridContainer').classList.add('bottomLayer')
         document.getElementById('closeButton').classList.add('showButton')
+        document.getElementById('closeButton').classList.add('topLayer')
     }}
 
 
