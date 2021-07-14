@@ -13,9 +13,7 @@ class CloseButton extends Component {
 
     render() {
         return (
-            <button className='closeButton' id='closeButton' onClick={this.closeArt}>
-                CLICK ME
-            </button>
+            <button className='closeButton' id='closeButton' onClick={this.closeArt}/>
         );
     }
 }
