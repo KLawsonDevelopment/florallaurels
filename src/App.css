@@ -1,5 +1,6 @@
 .topLayer {
   z-index: 1;
+  background-color: rgb(243,236,218)
 }
 
 .middleLayer {
