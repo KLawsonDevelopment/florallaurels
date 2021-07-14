@@ -18,9 +18,7 @@ class NavBarButton extends Component {
 
     render() {
         return (
-            <button className='navBarButton' onClick={this.displayNavBar}>
-                Hi I am new
-            </button>
+            <button className='navBarButton' onClick={this.displayNavBar}/>
         );
     }
 }
