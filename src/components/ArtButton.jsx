@@ -23,7 +23,7 @@ class ArtButton extends Component {
 
     render() {
         return (
-            <button className='artButton' onClick={this.displayPage}>
+            <button className='artButton' id='artButton' onClick={this.displayPage}>
                 Art
             </button>
         );

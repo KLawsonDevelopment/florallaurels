@@ -22,7 +22,7 @@ class AboutButton extends Component {
 
     render() {
         return (
-            <button className='aboutButton' onClick={this.displayPage}>
+            <button className='aboutButton' id='aboutButton' onClick={this.displayPage}>
                 About
             </button>
         );

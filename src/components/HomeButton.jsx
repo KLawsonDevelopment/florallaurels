@@ -22,7 +22,7 @@ class HomeButton extends Component {
 
     render() {
         return (
-            <button className='homeButton' onClick={this.displayPage}>
+            <button className='homeButton' id='homeButton' onClick={this.displayPage}>
                 Home
             </button>
         );

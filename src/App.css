@@ -67,7 +67,7 @@ body {
 }
 
 .title {
-  grid-column-start: 2;
+  grid-column-start: 1;
   grid-column-end: 7;
   grid-row-start: 2;
   grid-row-end: 6;
@@ -77,9 +77,19 @@ body {
   box-shadow: 2px -6px .4em black;
 }
 
+.navBarButton {
+  display: block !important;
+}
+
+.active {
+  display:block !important;
+}
+
 .navbar button {
   background: rgb(127,136,107);
+  height: 20vh;
   position: relative;
+  display:none;
   z-index: 0;
 }
 

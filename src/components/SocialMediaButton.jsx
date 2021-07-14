@@ -23,7 +23,7 @@ class SocialMediaButton extends Component {
 
     render() {
         return (
-            <button className='socialMediaButton' onClick={this.displayPage}>
+            <button className='socialMediaButton' id='socialMediaButton' onClick={this.displayPage}>
                 Socials
             </button>
         );
