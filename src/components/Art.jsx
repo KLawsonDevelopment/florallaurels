@@ -5,7 +5,7 @@ class Art extends Component {
     frontAndCenter (art) {
         return function() {
         document.getElementById('topLayer').style.backgroundImage = 'url(' + art + ')'
-        document.getElementById('topLayer').style.backgroundColor = 'black'
+        document.getElementById('topLayer').style.backgroundColor = '#313639'
         document.getElementById('topLayer').classList.add('topLayer')
         document.getElementById('gridContainer').classList.add('bottomLayer')
         document.getElementById('closeButton').classList.add('showButton')
